@@ -24,6 +24,7 @@ $question = $software->questions("qid", $qid);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="publisher" href="https://plus.google.com/100862670780242731884"/>
+    <meta name="google-site-verification" content="oNbmaNSg9UDZqxEZB4PIoxeuYzwfoFuFltQHSEgJUfE" />
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://iq.apps.rastasoft.ir/rss.php" />
     <link rel="index" title="Hafez" href="http://iq.apps.rastasoft.ir/list.php" />
     <link rel="alternate" href="http://iq.apps.rastasoft.ir" hreflang="fa-ir" />
