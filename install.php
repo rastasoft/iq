@@ -34,8 +34,8 @@ function markup_to_html($markup) {
           $tag = "<img src=\"files/images/{$medias[2][$index]}\" />";
           break;
 		case 'video':
-          $tag = '<video width="320" height="240" controls>'
-				  '<source src="files/videos/'.$medias[2][$index].'" type="video/mp4">'
+          $tag = '<video width="320" height="240" controls>'.
+				  '<source src="files/videos/'.$medias[2][$index].'" type="video/mp4">'.
 				'</video>';
           break;
         default :
