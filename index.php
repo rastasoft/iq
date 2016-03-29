@@ -21,6 +21,8 @@ $question = $software->questions("qid", $qid);
       <?php print strip_tags($question[0]['title']); ?>
     </title>
     <meta name="description" content="<?php print strip_tags($question[0]['question']); ?>"/>
+    <meta property="og:title" content="<?php print strip_tags($question[0]['title']); ?>" />
+    <meta property="og:description" content="<?php print strip_tags($question[0]['question']); ?>" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="publisher" href="https://plus.google.com/100862670780242731884"/>
